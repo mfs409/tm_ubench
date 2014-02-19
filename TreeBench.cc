@@ -1,3 +1,13 @@
+// -*-c++-*-
+//
+//  Copyright (C) 2011, 2014
+//  University of Rochester Department of Computer Science
+//    and
+//  Lehigh University Department of Computer Science and Engineering
+//
+// License: Modified BSD
+//          Please see the file LICENSE for licensing information
+
 #include "bmconfig.h"
 #include "bmharness.h"
 #include "Tree.h"

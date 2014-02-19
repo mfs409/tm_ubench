@@ -1,4 +1,12 @@
 // -*-c++-*-
+//
+//  Copyright (C) 2011, 2014
+//  University of Rochester Department of Computer Science
+//    and
+//  Lehigh University Department of Computer Science and Engineering
+//
+// License: Modified BSD
+//          Please see the file LICENSE for licensing information
 
 #pragma once
 
@@ -13,10 +21,12 @@
 #include "timing.h"
 #include "bmconfig.h"
 
+#ifdef LU_GCC
 extern "C"
 {
     void _GTM_dump_stats();
 }
+#endif
 
 /// A hack for making sure each thread goes to its own place
 thread_local int thread_id;

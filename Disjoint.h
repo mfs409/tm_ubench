@@ -1,17 +1,14 @@
 // -*-c++-*-
+//
+//  Copyright (C) 2011, 2014
+//  University of Rochester Department of Computer Science
+//    and
+//  Lehigh University Department of Computer Science and Engineering
+//
+// License: Modified BSD
+//          Please see the file LICENSE for licensing information
 
-/**
- *  Copyright (C) 2011
- *  University of Rochester Department of Computer Science
- *    and
- *  Lehigh University Department of Computer Science and Engineering
- *
- * License: Modified BSD
- *          Please see the file LICENSE.RSTM for licensing information
- */
-
-#ifndef DISJOINT_HPP__
-#define DISJOINT_HPP__
+#pragma once
 
 extern thread_local int thread_id;
 
@@ -163,5 +160,3 @@ struct Disjoint
           return true;
       }
 };
-
-#endif // DISJOINT_HPP__
