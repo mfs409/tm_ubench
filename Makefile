@@ -6,7 +6,7 @@ CXXFILES = Tree List
 #
 # Files to compile that do have a main() function
 #
-TARGETS = TreeBench ListBench DisjointBench CounterBench
+TARGETS = StdSetBench TreeBench ListBench DisjointBench CounterBench
 
 #
 # Let the user choose 32-bit or 64-bit compilation, but default to 32
